@@ -76,10 +76,9 @@
                <div class="comment-img"><img src="/assets/img/blog/comments-1.jpg" alt=""></div>
                <div>
                  <h5>{{ $post->comment->name }}</h5>
-                 <time datetime="2020-01-01">01 Jan, 2020</time>
+                 <time datetime="2020-01-01">{{ $post->comment->time }}</time>
                  <p>
-                   Et rerum totam nisi. Molestiae vel quam dolorum vel voluptatem et et. Est ad aut sapiente quis molestiae est qui cum soluta.
-                   Vero aut rerum vel. Rerum quos laboriosam placeat ex qui. Sint qui facilis et.
+                  {{ $post->comment->body }}
                  </p>
                </div>
              </div>

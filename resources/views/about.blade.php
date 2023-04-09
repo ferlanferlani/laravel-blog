@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- ======= About Section ======= -->
-    <section class="contact mt-5">
+    <section class="about mt-5">
 
      <div class="container" data-aos="fade-up">
 

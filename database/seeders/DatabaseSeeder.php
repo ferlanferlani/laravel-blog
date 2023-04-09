@@ -56,19 +56,16 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Comment::create([
-            "post_id" => 1,
             "name" => "Gilang Andika",
             "body" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni error expedita accusamus tenetur nemo? Rem cumque quas consequuntur odit amet maxime ",
             "time" => "Selasa, 21 Juni 2021"
         ]);
         Comment::create([
-            "post_id" => 2,
             "name" => "Diki Kurniawan",
             "body" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni error expedita accusamus tenetur nemo? Rem cumque quas consequuntur odit amet maxime ",
             "time" => "Minggu, 9 Juni 2022"
         ]);
         Comment::create([
-            "post_id" => 3,
             "name" => "Alesyha Zahra",
             "body" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni error expedita accusamus tenetur nemo? Rem cumque quas consequuntur odit amet maxime ",
             "time" => "Jum'at, 9 Desember 2022"
@@ -77,6 +74,7 @@ class DatabaseSeeder extends Seeder
         Post::create([
             "category_id" => 1,
             "user_id" => 1,
+            "comment_id" => 1,
             "title" => "Judul Postingan Pertama",
             "slug" => "judul-postingan-pertama",
             "thumbnail" => "blog-1.jpg",
@@ -88,6 +86,7 @@ class DatabaseSeeder extends Seeder
         Post::create([
             "category_id" => 2,
             "user_id" => 2,
+            "comment_id" => 2,
             "title" => "Judul Postingan Ke Dua",
             "slug" => "judul-postingan-ke-dua",
             "thumbnail" => "blog-2.jpg",
@@ -99,6 +98,7 @@ class DatabaseSeeder extends Seeder
         Post::create([
             "category_id" => 3,
             "user_id" => 3,
+            "comment_id" => 3,
             "title" => "Judul Postingan Ke Tiga",
             "slug" => "judul-postingan-ke-tiga",
             "thumbnail" => "blog-3.jpg",
